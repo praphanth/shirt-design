@@ -7,3 +7,4 @@
    - Username: admin
    - Password: 123456789
 5. This project is currently under development.
+6. Use the develop branch for development purposes.
