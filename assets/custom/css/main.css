@@ -1,0 +1,111 @@
+@charset "UTF-8";@font-face{font-family:'Mitr';src:url(../fonts/Mitr-ExtraLight.eot);src:url(../fonts/Mitr-ExtraLight.eot) format("embedded-opentype"),url(../fonts/Mitr-ExtraLight.woff2) format("woff2"),url(../fonts/Mitr-ExtraLight.woff) format("woff"),url(../fonts/Mitr-ExtraLight.ttf) format("truetype"),url(../fonts/Mitr-ExtraLight.svg) format("svg");font-weight:200;font-style:normal}@font-face{font-family:'Mitr';src:url(../fonts/Mitr-Light.eot);src:url(../fonts/Mitr-Light.eot) format("embedded-opentype"),url(../fonts/Mitr-Light.woff2) format("woff2"),url(../fonts/Mitr-Light.woff) format("woff"),url(../fonts/Mitr-Light.ttf) format("truetype"),url(../fonts/Mitr-Light.svg) format("svg");font-weight:300;font-style:normal}@font-face{font-family:'Mitr';src:url(../fonts/Regular.eot);src:url(../fonts/Regular.eot) format("embedded-opentype"),url(../fonts/Regular.woff2) format("woff2"),url(../fonts/Regular.woff) format("woff"),url(../fonts/Regular.ttf) format("truetype"),url(../fonts/Regular.svg) format("svg");font-weight:400;font-style:normal}
+
+
+@font-face {
+  font-family: 'CSChatThaiUI';
+  src: url('../fonts/CSChatThaiUI.eot?#iefix') format('embedded-opentype'),  url('../fonts/CSChatThaiUI.woff') format('woff'), url('../fonts/CSChatThaiUI.ttf')  format('truetype'), url('../fonts/CSChatThaiUI.svg#CSChatThaiUI') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+input[type="file"] {
+    display: none;
+}
+.nice-select{
+  height: 38px !important;
+  line-height: 38px !important;
+}
+.sp-dd{
+  line-height: 22px !important;
+}
+.sp-preview{
+  height: 25px !important;
+}
+
+.bg-design{
+	background-color: #e6e5e5  !important;
+}
+.hero-section{
+	padding-top: 0px !important;
+}
+.zoom {
+  transition: transform .2s;
+}
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.btn-info{
+  background-color: #1ebc61;
+  border-color: #1ebc61;
+}
+
+.top-nav .tn-right .bk-btn{
+  background-color: #1ebc61 !important;
+  color: #fff !important;
+}
+.top-nav .tn-left li i{
+  color: #1ebc61 !important;
+}
+
+.offcanvas-menu-wrapper .header-configure-area .bk-btn{
+  background-color: #1ebc61 !important;
+  color: #fff !important;
+}
+.offcanvas-menu-wrapper .top-widget li i{
+  color: #1ebc61 !important;
+}
+.footer-section .footer-text .ft-newslatter h6{
+  color: #1ebc61 !important;
+}
+.footer-section .footer-text .ft-contact h6{
+  color: #1ebc61 !important;
+}
+.footer-section .footer-text .ft-about .fa-social a{
+  border: 1px solid #02614c !important;
+}
+.footer-section .footer-text .ft-about .fa-social a:hover{
+  background-color: #1ebc61 !important;
+}
+
+
+.nav-tabs{
+  background-color: #ebebeb !important;
+  border: 0px !important;
+}
+a {
+  color : #6b6b6b !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #fff !important;
+  background-color: #30a3f1 !important;
+  border: 0px !important;
+}
+.nav-tabs .nav-item{
+  margin-bottom : -1px !important;
+  width: 33.333333333333333% !important;
+}
+
+.nav-tabs .nav-link{
+  border-top-left-radius : 0rem !important;
+  border-top-right-radius : 0rem !important;
+}
+
+.menu-item .nav-menu .mainmenu li a:after{
+  background-color: #1ebc61 !important;
+}
+.sp-preview{
+  width: 70px !important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  border: 0px solid #fff !important;
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 600px) { /*aon ok*/
+   
+
+	
+}
+

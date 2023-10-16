@@ -1,0 +1,29 @@
+.dataTables_paginate li a:hover{
+    color: white  !important;
+    border: 1px solid #1976d2;
+    background-color: #1976d2;
+}
+.dataTables_paginate li:hover a{
+	color: white  !important;
+    border: 1px solid #1976d2;
+    background-color: #1976d2;
+}
+.paginate_button.current{
+	position: relative;
+    display: block;
+    margin-left: -1px;
+    line-height: 1.25;
+    padding: .5rem .75rem !important;
+    border: 1px solid #1976d2;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+	padding: unset;
+	border: unset;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+	border: unset;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+     outline: unset; 
+     background-color: unset; 
+}
