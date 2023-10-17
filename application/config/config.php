@@ -32,7 +32,7 @@ $root=(isset($_SERVER['HTTPS']) ? "https://" : "http://").$_SERVER['HTTP_HOST'];
 $root.= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 $config['base_url'] = $root;
 
-// $config['base_url'] = 'http://localhost/tee21/';
+// $config['base_url'] = 'http://localhost/shirtdesign/';
 
 /*
 |--------------------------------------------------------------------------
@@ -389,7 +389,7 @@ $config['encryption_key'] = '';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session_user';
 $config['sess_expiration'] = 0;// 60*60*24*30;
-$config['sess_save_path'] = NULL;//'/home/zp8285/domains/delert.co.th/public_html/project/dogandcatsmile/temp/';
+$config['sess_save_path'] = NULL;//'/home/zp8285/domains/shirtdesign.co.th/public_html/project/shirtdesign/temp/';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
@@ -411,7 +411,7 @@ $config['sess_regenerate_destroy'] = FALSE;
 |
 */
 $config['cookie_prefix']	= '';
-$config['cookie_domain']	= '';//'deelert.co.th';
+$config['cookie_domain']	= '';//'shirtdesign.co.th';
 $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
 $config['cookie_httponly'] 	= FALSE;
