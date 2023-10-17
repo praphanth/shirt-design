@@ -36,7 +36,7 @@
 	height: 444px !important;
 	top: 40px;
 	left: 90px;
-	border-style: dotted;
+	/* border-style: dotted; */
 	border-width: 5px 5px 5px 5px;
 	-moz-border-image: url(https://drive.google.com/uc?export=view&id=0B3ubyt3iIvkabEZhbkJseW5IZWc) 19 22 21 19 round;
 	-webkit-border-image: url(https://drive.google.com/uc?export=view&id=0B3ubyt3iIvkabEZhbkJseW5IZWc) 19 22 21 19 round;
@@ -55,7 +55,7 @@ div.ex3 {
 
 </style>
     <!-- Hero Section Begin -->
-    <section class="hero-section ">
+    <section class="hero-section" id="img-canva">
         <div class="container">
             <div class="row">
 				<div class="col-lg-6">
@@ -65,19 +65,13 @@ div.ex3 {
 							<input type="hidden" name="ck_side" class="ck_side" value="1">
 							<img class="canvas-bg" id="change_shirt" style="">
 							<canvas width="275" height="410" id="canvas_shirt"></canvas>
-							<!-- <canvas width="275" height="410" id="canvas_test"></canvas> -->
 						</div>
-						<div id="change_colorchirt_img"></div>
 					</div>
 					<div class="row pt-4">
 						<div class="col-lg-12 text-center">
-							<!-- <button class="btn btn-info" onclick="saveImg();"><i class="fa fa-share-square-o"></i> Save & Share</button> -->
+							<button class="btn btn-info w-25" onclick="printContent('canvas-wrapper')"><i class="fa fa-print"></i> Print</button>
 						</div>
-						<!-- <div class="col-lg-6">
-							<button class="btn btn-danger btn-block" onclick="turnOver();"><i class="fa fa-shopping-basket"></i> สั่งซื้อสินค้า</button>
-						</div> -->
 					</div>
-					
 				</div>
 				<div class="col-lg-6">
 					<div class="row text-center">
@@ -415,14 +409,30 @@ function getStyle(object, styleName) {
 }
 
 
-function saveImg() {
-	console.log('saveImg change_colorchirt canvas-wrapper');
+function printContent(el) {
+	var mywindow = window.open('', 'PRINT', 'height=800,width=600');
 
-	// const canvas = document.getElementById("canvas-wrapper");
-	// const context = canvas.getContext("2d");
+	mywindow.document.write('<html><head><title>' + document.title  + '</title>');
+	mywindow.document.write('</head><body >');
+	mywindow.document.write('<h1>' + document.title  + '</h1>');
+	mywindow.document.write(document.getElementById(el).innerHTML);
+	mywindow.document.write('</body></html>');
+
+	mywindow.document.close(); 
+	mywindow.focus(); 
+
+	mywindow.print();
+	mywindow.close();
+
+	return true;
 
 }
 
+
+
+function convertCanvasToImage(aaa) {
+    something = aaa[0].toDataURL("image/png");
+}
 
 
 
