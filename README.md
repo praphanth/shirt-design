@@ -19,3 +19,5 @@
 7. Use the branch 'develop' for development purposes.
 8. This project is open source and can be modified as needed (please give credit to the original creator).
 
+# Demo Screenshots
+![alt text](https://raw.githubusercontent.com/praphanth/shirt-design/master/uploads/shirtdesign.png)
