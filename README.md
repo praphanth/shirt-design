@@ -18,8 +18,8 @@
    - Username: admin
    - Password: 123456789
 6. This project is currently under development.
-7. Use the branch 'develop' for development purposes.
-8. This project is open source and can be modified as needed (please give credit to the original creator).
+7. This project is open source and can be modified as needed (please give credit to the original creator).
+8. Use the branch 'develop' for development purposes.
 
 # Demo Screenshots
 ![alt text](https://raw.githubusercontent.com/praphanth/shirt-design/master/uploads/shirtdesign.png)
