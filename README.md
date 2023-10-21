@@ -22,4 +22,4 @@
 8. Use the branch 'develop' for development purposes.
 
 # Demo Screenshots
-![alt text](https://raw.githubusercontent.com/praphanth/shirt-design/master/uploads/shirtdesign.png)
+![alt text](https://github.com/praphanth/shirt-design/blob/master/uploads/shirtdesign.png?raw=true)
